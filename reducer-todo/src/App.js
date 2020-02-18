@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>To-Do or not To-Do</h1>
+      <h1>To-Do App</h1>
 
       <ToDo state={state} dispatch={dispatch} />
       <TodoPage state={state} dispatch={dispatch} />
